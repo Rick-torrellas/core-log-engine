@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentación de AppLogger</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="content">
+        <h1>Clase: AppLogger</h1>
+        <p class="inheritance"><strong>Herencia:</strong> Hereda de <code>Logger</code></p>
+        
+        <p>
+            La clase <code>AppLogger</code> es una implementación de puerto (Logger port) que utiliza la librería estándar 
+            <code>logging</code> de Python para gestionar la salida de registros de la aplicación.
+        </p>
+
+        <hr>
+
+        <h2>Constructor</h2>
+        <h3>__init__(self, name: str) -> None</h3>
+        <p>Inicializa una nueva instancia del logger.</p>
+        <ul>
+            <li><strong>Parámetros:</strong>
+                <ul>
+                    <li><code>name</code> (str): El nombre del logger, usualmente utilizado para identificar el origen de los mensajes.</li>
+                </ul>
+            </li>
+            <li><strong>Descripción:</strong> Crea una instancia interna de <code>logging.Logger</code>.</li>
+        </ul>
+
+        <hr>
+
+        <h2>Métodos Públicos</h2>
+
+        <h3>info(self, message: str) -> None</h3>
+        <p>Registra un mensaje con nivel de severidad <strong>INFO</strong>.</p>
+        <ul>
+            <li><strong>message:</strong> El contenido del texto a registrar.</li>
+        </ul>
+
+        <h3>debug(self, message: str) -> None</h3>
+        <p>Registra un mensaje con nivel de severidad <strong>DEBUG</strong>.</p>
+        <ul>
+            <li><strong>message:</strong> Detalles técnicos útiles para la depuración.</li>
+        </ul>
+
+        </section>
+
+</body>
+</html>
