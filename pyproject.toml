@@ -9,3 +9,7 @@ dependencies = [
     "pytest>=9.0.2",
     "ruff>=0.15.4",
 ]
+
+[build-system]
+requires = ["hatchling"] # O setuptools, el que prefieras
+build-backend = "hatchling.build"

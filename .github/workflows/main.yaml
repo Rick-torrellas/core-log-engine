@@ -22,5 +22,6 @@ jobs:
       contents: read    # Necesario para leer el código
       id-token: write   # El que te está pidiendo el error
       pages: write      # El padre debe habilitar la capacidad de escribir en Pages
+      packages: write   # Necesario para subir el paquete
     uses: ./.github/workflows/cd.yaml
 
