@@ -2,6 +2,7 @@ import logging
 import logging.config
 from typing import Optional, Union
 
+
 class SpecificLevelFilter(logging.Filter):
     """Custom logging filter that only allows records with a specific log level."""
 
