@@ -21,5 +21,6 @@ jobs:
     needs: [Formatting, Linting] # Esto los hace secuenciales
     uses: ./.github/workflows/test.yaml
   Versions:
+    if: startsWith(github.ref, 'refs/tags/')
     needs: [Tests] # Esto los hace secuenciales
     uses: ./.github/workflows/version.yaml

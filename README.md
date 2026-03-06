@@ -4,7 +4,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rick-torrellas/core-logger-engine/badges/version.json)
-[![Main CI Pipeline](https://github.com/Rick-torrellas/core-logger-engine/actions/workflows/main.yaml/badge.svg)](https://github.com/Rick-torrellas/core-logger-engine/actions/workflows/main.yaml)
+[![main ci/cd pipeline](https://github.com/Rick-torrellas/core-log-engine/actions/workflows/main.yaml/badge.svg)](https://github.com/Rick-torrellas/core-log-engine/actions/workflows/main.yaml)
 
 ---
 
