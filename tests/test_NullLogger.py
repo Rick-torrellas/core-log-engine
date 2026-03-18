@@ -13,27 +13,22 @@ class TestNullLogger:
         """Verifica que el logger se instancie correctamente."""
         assert isinstance(logger, NullLogger)
 
-    @pytest.mark.parametrize("method_name", [
-        "info",
-        "debug",
-        "warning",
-        "error"
-    ])
+    @pytest.mark.parametrize("method_name", ["info", "debug", "warning", "error"])
     def test_methods_execute_without_error(self, logger, method_name):
         """
-        Verifica que todos los métodos de log acepten un string 
+        Verifica que todos los métodos de log acepten un string
         y no retornen nada (o no lancen excepciones).
         """
         method = getattr(logger, method_name)
-        
+
         # Ejecutamos el método. No debería pasar nada.
         result = method("Mensaje de prueba")
-        
+
         assert result is None
 
     def test_methods_handle_different_types(self, logger):
         """
-        Opcional: Verificar que el logger no explote si recibe algo 
+        Opcional: Verificar que el logger no explote si recibe algo
         que no sea estrictamente un string (tipado dinámico de Python).
         """
         try:
