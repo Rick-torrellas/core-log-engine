@@ -1,4 +1,4 @@
-# cc_logger_kit
+# cc.logger_kit
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Version](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/Rick-torrellas/CapsuleCore-logger/badges/version.json)
